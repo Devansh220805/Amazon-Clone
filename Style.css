@@ -1,0 +1,398 @@
+body{
+   background-color: rgba(205, 207, 211, 0.721);
+   font-family: times New Roman;
+   margin-top: 0%;
+   margin-left: 0%;
+   margin-right: 0%;
+}
+/* on hover on nav bar then border will created with is border hover tag*/
+.border:hover{
+    border: 1px solid white;
+}
+
+/*nav bar of amazon*/
+header{
+    background-color:  rgb(17, 23, 31);
+    margin-top: 0%;
+}
+
+/*top half navbar*/
+.head-div1{
+    background-color: rgb(17, 23, 31);
+    margin-top: 0px;
+    display: flex;
+    color: white;
+}
+
+/*13-15 line html*/
+.logo{
+    margin-top: 2vh;
+    width: 10vw;
+}
+
+/*16-21 line html*/
+.loc{
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+    margin-right: 6vw;
+}
+
+/*22-25 line html*/
+#search{
+    margin-top: 2vh;
+    display: flex;
+    background-color:rgb(238,193,12) ;
+    border-radius: 6px;
+    height: 50px;
+}
+.search{
+    margin-top: 0.2vh;
+    border: 2px solid rgb(238, 193, 12);
+    border-right: 4px solid rgb(238,193,12);
+    padding: 0px 210px 10px 205px;
+    border-radius: 5px;
+}
+.search-img{
+    margin-left: 0;
+    margin-top: 2vh;
+    padding-right: 6px;
+}
+
+/*26-28 line html*/
+.country{
+    margin-top: 5.5vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+/*29-31 line html*/
+.acc{
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+}
+
+/*32-34 line html*/
+.orders{
+    margin-top: 2vh;
+    margin-left: 2.7vw;
+}
+
+/*35-37 line html*/
+.cart{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+/*bottom half header*/
+.head-div2{
+    display: flex;
+    padding: 2px;
+    background-color: rgb(41, 54, 71);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* Styling for the side navigation */
+.side-nav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #ffffff;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.side-nav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: rgb(7, 7, 7);
+display: block;
+transition: 0.3s;
+}
+
+.side-nav a:hover {
+color: #f1f1f1;
+}
+
+.side-nav .close-btn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* Button to open the side navigation */
+.open-nav {
+font-size: 17px;
+cursor: pointer;
+background-color:rgb(41, 54, 71);
+color: white;
+padding: 10px 15px;
+margin-left: 1.5vh;
+border: none;
+margin-bottom: 0;
+}
+
+/* Adjusting main content */
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+/*52-78 line html*/
+.navbar2{
+color: white;
+font-size: 17px;
+margin-top: 2.2vh;
+margin-left: 1.1vw;
+margin-bottom: 0;
+}
+
+/*78-81 line html*/
+.head-div2-img{
+    width: 400px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 7vw;
+}
+
+/*main body*/
+.main-body{
+    background-image: url(Images/main-bg1.png);
+    background-repeat: no-repeat;
+    width: 1380px;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 22px;
+}
+/*87-182 line html*/
+.store1{
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    gap: 1vw;
+    
+}
+/*88-159 line html*/
+.grid1{
+    margin-top: 75%;
+    width: 330px;
+    background-color: white;
+    
+}
+/*use for adjust the grid block headings */
+.grid1-heading{
+    font-size: 27px;
+    text-align: left;
+    margin-left: 2.2vw;
+}
+/*use for fromatting the image,text,link etc in grid block*/
+.grid1-1{
+    display: flex;
+    margin-left: 1vw;
+}
+.grid-block1{
+    margin-left: 1.2vw;
+}
+.text-grid1{
+    margin-top: 0%;
+    text-align: left;
+}
+.grid1-link{
+    margin-top: 0%;
+    text-align:left;
+    margin-bottom: 4vh;
+    margin-left: 2vw;
+}
+.grid1-link2{
+    text-align:left;
+    margin-bottom: 4vh;
+    margin-left: 2vw;
+    margin-top: 6vh;
+}
+
+/*below code is use to adjest and devide the 4 grid b;ock int to equal part and add their heading,button, imgs etc */
+#grid1-div4{
+    margin-top: 64.5%;
+    display: grid;
+    gap: 4vh;
+    grid-template-rows: auto auto;
+    padding: 15px;
+    width: 330px;
+    height: 150px;
+    margin-left:0%;
+}
+.grid1-2{
+    background-color: white;
+    margin-left: 0%;
+    
+}
+.grid1-3{
+    background-color: white;
+    display: flex;
+    margin-left: 0%;
+    
+    align-items: center;
+    
+}
+.grid1-2-para{
+    background-color: rgb(255, 230, 0);
+    padding: 8px;
+    border-radius: 20px;
+    margin: 0px 20px 30px 20px;
+}
+.grid1-2-para:hover{
+    background-color: rgb(215, 179, 15);
+}
+.grid-block1-1{
+    margin-top: 6vh;
+    margin-left: 2vw;
+    margin-bottom: 6vh;
+}
+.dis{
+    margin-top: 0%;
+    margin-left: 1.2vw;
+    font-size: 22px;
+}
+.disprice{
+    font-size: 22px;
+    margin-top: 0%;
+    margin-left: 0.5vw;
+}
+.price{
+    color: gray;
+    font-size: 17px;
+    margin-top: 0%;
+    margin-left: 0.5vw;
+}
+.prime{
+    margin-top: 0%;
+    margin-left: 1vw;
+}
+
+/* part 2 of main body */
+.store2{
+    margin-top: 1.2vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1vw;
+    margin-left: 1vw;
+}
+.store2-cols{
+    background-color: white;
+    width: 330px;
+    height: 470px;
+}
+.store2-cols4{
+    background-color: white;
+    width: 330px;
+    height: 470px;
+    margin-left: 1.2vw;
+}
+.store2-h2{
+    margin-left: 1.5vw;
+    font-size: 27px;
+}
+.store2-img{
+    margin-left: 1.6vw;
+    width: 280px;
+    height: 330px;
+}
+.store2-p{
+    margin-left: 1.5vw;
+    margin-bottom: 2vh;
+}
+.store2-img2{
+    margin-left: 1vw;
+    margin-top: 2.5vh;
+    width: 300px;
+    height: 290px;
+}
+
+/* 3 part of main body*/
+.store3{
+    margin-top: 4vh;
+    background-color: white;
+    margin-left: 2vw;
+
+}
+.hr{
+    margin-top: 8vh;
+    color: rgb(86, 89, 91);
+}
+.hr1{
+    margin-bottom: 8vh;
+    color: rgb(86, 89, 91);
+}
+.store3-h2{
+    text-align: center;
+    font-size: 30px;
+}
+.store3-p1{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 230, 0);
+    margin: 0 550px 0 550px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+}
+.store3-p1:hover{
+    background-color: rgb(215, 179, 15);
+}
+.store3-p2{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Footer */
+footer{
+    background-color:rgb(17, 23, 31) ;
+    margin: 6vh 0% 0% 0%;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+}
+.footer-cols{
+    margin-top: 5vh;
+    margin-right: 0;
+    color: rgb(251, 250, 250);
+    text-align: left;
+    width: 330px;
+}
+#f-cols1{
+    margin-left: 4vw;
+}
+.a{
+    color:rgb(187, 185, 185)
+}
+/* lat part of footer*/
+.f-l{
+    display: flex;
+    gap: 2vh;
+    color: white;
+    margin-left: 40%;
+}
+.f-div{
+    display: flex;
+    gap: 0.2vw;
+}
+.f-logo{
+    margin-top: 1vh;
+    margin-right: 4vw;
+}
+.f-flag{
+    margin-top: 3vh;
+    margin-right: 0%;
+}
