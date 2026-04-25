@@ -181,7 +181,8 @@ white-space: nowrap;
 .main-body{
     background-image: url(Images/main-bg1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    align-items: center;
     width: 100%;
     max-width: 1380px;
     margin-top: 0%;
