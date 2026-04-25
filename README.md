@@ -15,3 +15,5 @@ Product sections and banners
 🔹 This is just a front-end layout project (no backend, no database).
 
 🔹 Created as a practice project to improve my HTML, CSS, and beginner JavaScript skills.
+
+https://amazon-clone-by-devansh.netlify.app/
